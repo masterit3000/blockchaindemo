@@ -1,0 +1,25 @@
+{
+  "name": "apblock",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev-test": "nodemon dev-test",
+    "start": "node ./app",
+    "dev": "node ./app"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  },
+  "dependencies": {
+    "body-parse": "^0.1.0",
+    "body-parser": "^1.18.3",
+    "crypto-js": "^3.1.9-1",
+    "express": "^4.16.3",
+    "ws": "^6.0.0"
+  }
+}
